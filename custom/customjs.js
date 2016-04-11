@@ -1,3 +1,4 @@
+ // bootstrap popover
  $(document).ready(function(){
       $('[data-toggle="popover"]').popover(); 
  });
@@ -10,6 +11,7 @@ for (var i=1; i<7; i++){
 	});
 }
 
+// color picker
 function update(picker) {
-    document.body.style.backgroundColor = picker.toHEXString();
+    $("body").css("background-color",picker.toHEXString());
 }
