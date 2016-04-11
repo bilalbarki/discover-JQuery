@@ -1,0 +1,7 @@
+.navbar{
+	border-radius:0;
+}
+
+.columns-section h2, #section-faq h2, .jumbotron h1, #section-faq h4>a{
+	font-weight: bold;
+}

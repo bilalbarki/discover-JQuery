@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  
+  <!--For later use
+  <meta name="keywords" content="Keywords here" />
+  <meta name="description" content="Description here" />
+  <meta name="author" content="Author name here" />
+  -->
+
+  <title>Acme, Inc.</title>
+
+  <!-- Bootstrap -->
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/bootstrap.js"></script>
+  <!--Custom Styles-->
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/star-rating.css" media="all" rel="stylesheet" type="text/css" />
+  <script src="js/star-rating.js" type="text/javascript"></script>
+
+  <script src="js/jscolor.js"></script>
+  
+  <link href="custom/styles.css" rel="stylesheet">
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <nav class="navbar navbar-inverse">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Acme, inc.</a>
+        </div><!--navbar-header-->
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">One</a></li>
+                <li><a href="#">Two</a></li>
+                <li><a href="#">Three</a></li>
+              </ul><!--dropdown-menu-->
+            </li><!--dropdown-->
+          </ul><!--nav navbar-nav-->
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">John Doe</a></li>
+            <li><a href="#">Log out</a></li>
+          </ul><!--nav navbar-nav navbar-right-->
+        </div><!--/.nav-collapse -->
+      </div><!--container-->
+    </nav>
+  <div class="container">
+    <div class="jumbotron">
+    <h1>Innovation at its core</h1>
+    <p>
+      Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+    </p>
+    <p>
+      <a class="btn btn-primary btn-lg" href="#" role="button" data-toggle="popover" data-trigger="hover" title="<strong>What's behind that link</strong>" data-content="Tons of information about Acme's products and services. Click now, you won't be disappointed!" data-html="true">Learn more about Acme, inc. &raquo;</a>
+    </p>
+    </div><!--Jumbotron-->
+    <div class="row columns-section">
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <h2>Heading</h2>
+        <input id="input-id1" class="rating">
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div><!--/.col-xs-12 col-sm-6 col-md-4-->
+
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <h2>Heading</h2>
+        <input id="input-id2" class="rating">
+        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+        <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+      </div><!--/.col-xs-12 col-sm-6 col-md-4-->
+      <div class="clearfix visible-sm"></div>
+
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <h2>Heading</h2>
+        <input id="input-id3" class="rating">
+        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+        <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+      </div><!--/.col-xs-12 col-sm-6 col-md-4-->
+      <div class="clearfix visible-md visible-lg"></div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <h2>Heading</h2>
+          <input id="input-id4" class="rating">
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. lis euismod. Donec sed odio dui. lis euismod. Donec sed odio dui. </p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+      </div><!--/.col-xs-12 col-sm-6 col-md-4-->
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <h2>Heading</h2>
+        <input id="input-id5" class="rating">
+        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+        <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+      </div><!--/.col-xs-12 col-sm-6 col-md-4-->
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <h2>Heading</h2>
+        <input id="input-id6" class="rating">
+        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+        <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+      </div><!--/col-xs-12 col-sm-6 col-md-4-->
+    </div><!--/row-->
+    
+    <div id="section-faq">
+      <h2>FAQ</h2>
+      <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="headingOne">
+            <h4 class="panel-title">
+              <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Question #1
+              </a>
+            </h4>
+          </div><!--headingOne-->
+          <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+            <div class="panel-body">
+              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+            </div><!--panel-body-->
+          </div><!--collapseOne-->
+        </div><!--panel panel-default-->
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="headingTwo">
+            <h4 class="panel-title">
+              <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Question #2
+              </a>
+            </h4>
+          </div><!--headingTwo-->
+          <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+            <div class="panel-body">
+              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+            </div><!--panel-body-->
+          </div><!--collapseTwo-->
+        </div><!--panel panel-default-->
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="headingThree">
+            <h4 class="panel-title">
+              <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Question #3
+              </a>
+            </h4>
+          </div><!--headingThree-->
+          <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+            <div class="panel-body">
+              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+            </div><!--panel-body-->
+          </div><!--collapseThree-->
+        </div><!--panel panel-default-->
+      </div><!--panel-group-->
+    </div><!--section-faq-->
+    <hr width=100% align=center />
+    <small>&copy; 2016 Acme, Inc.</small>
+    <input class="jscolor {onFineChange:'update(this)'}" value="ffffff">
+  </div> <!--container-->
+
+  
+  <script type="text/javascript" src="custom/customjs.js"></script>
+</body>
+</html>
